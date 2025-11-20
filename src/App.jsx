@@ -654,7 +654,8 @@ function Contact() {
     </section>
   )
 }
-
+);
+        
 /* Footer */
 function Footer() {
   return (
