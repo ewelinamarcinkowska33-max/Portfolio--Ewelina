@@ -96,7 +96,7 @@ function AboutSection() {
             Każdy nowy projekt zaczynam od ciekawości – to ona prowadzi mnie do najlepszych pomysłów.
           </blockquote>
           <p className="text-lg">
-            <strong>Prywatnie:</strong> podróże na wyspy, skutery wodne, latte art oraz wymyślanie edukacyjnych kart pracy i interaktywnych gier dla dzieci.
+            <strong>Prywatnie:</strong> podróże na wyspy, skutery wodne, latte art oraz wymyślanie edukacyjnych kart pracy i interaktywnych gier dla dzieci i młodzieży.
           </p>
         </motion.div>
       </div>
