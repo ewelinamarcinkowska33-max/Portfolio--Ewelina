@@ -613,21 +613,6 @@ Do not change the model’s pose, stride, arm movement, or outfit. Reproduce her
           ))}
         </div>
 
-        {/* Przyciski workflow */}
-        <div className="flex flex-wrap justify-center gap-6">
-          <a
-            href="/docs/workflow_london.docx"
-            download
-            className="px-6 py-3 rounded-full bg-gray-600 text-white font-medium shadow hover:bg-gray-700 transition"
-          >
-            📄 Pobierz opis workflow
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /* Contact */
 function Contact() {
   return (
