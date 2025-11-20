@@ -69,7 +69,7 @@ function AboutSection() {
         >
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/images/ewelina.jpg"
+              src="/images/ewelina.png"
               alt="Ewelina"
               className="w-full h-full object-cover"
             />
