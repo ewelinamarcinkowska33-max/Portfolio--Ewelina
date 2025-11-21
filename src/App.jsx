@@ -612,7 +612,7 @@ Do not change the model’s pose, stride, arm movement, or outfit. Reproduce her
             </article>
           ))}
         </div>
-);
+); }
         
 /* Contact */
 function Contact() {
