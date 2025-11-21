@@ -69,7 +69,7 @@ function AboutSection() {
         >
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/images/ewelina.png"
+              src="/images/ewelina.jpg"
               alt="Ewelina"
               className="w-full h-full object-cover"
             />
@@ -96,7 +96,7 @@ function AboutSection() {
             Każdy nowy projekt zaczynam od ciekawości – to ona prowadzi mnie do najlepszych pomysłów.
           </blockquote>
           <p className="text-lg">
-            <strong>Prywatnie:</strong> podróże na wyspy, skutery wodne, latte art oraz wymyślanie edukacyjnych kart pracy i interaktywnych gier dla dzieci i młodzieży.
+            <strong>Prywatnie:</strong> podróże na wyspy, skutery wodne, latte art oraz wymyślanie edukacyjnych kart pracy i interaktywnych gier dla dzieci.
           </p>
         </motion.div>
       </div>
@@ -586,7 +586,7 @@ Do not change the model’s pose, stride, arm movement, or outfit. Reproduce her
   return (
     <section id="recruitment-task" className="py-16 px-6 md:px-20 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-serif mb-6 text-center">London Fashion Day - eksperyment z sesją zdjęciową</h2>
+        <h2 className="text-3xl md:text-4xl font-serif mb-6 text-center">Zadanie Rekrutacyjne — London Fashion Day</h2>
         <p className="text-gray-600 mb-10 text-center">
           Dokumentacja sesji zdjęciowej w Londynie — 7 scen z modelką, prompty i opis workflow.
         </p>
@@ -612,9 +612,22 @@ Do not change the model’s pose, stride, arm movement, or outfit. Reproduce her
             </article>
           ))}
         </div>
-); 
+
+        {/* Przyciski workflow */}
+        <div className="flex flex-wrap justify-center gap-6">
+          <a
+            href="/docs/workflow_london.docx"
+            download
+            className="px-6 py-3 rounded-full bg-gray-600 text-white font-medium shadow hover:bg-gray-700 transition"
+          >
+            📄 Pobierz opis workflow
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 }
-        
+
 /* Contact */
 function Contact() {
   return (
@@ -656,7 +669,7 @@ function Contact() {
     </section>
   )
 }
-        
+
 /* Footer */
 function Footer() {
   return (
