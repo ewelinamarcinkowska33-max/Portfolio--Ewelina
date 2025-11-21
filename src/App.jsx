@@ -69,7 +69,7 @@ function AboutSection() {
         >
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/images/ewelina.jpg"
+              src="/images/ewelina.png"
               alt="Ewelina"
               className="w-full h-full object-cover"
             />
@@ -586,7 +586,7 @@ Do not change the model’s pose, stride, arm movement, or outfit. Reproduce her
   return (
     <section id="recruitment-task" className="py-16 px-6 md:px-20 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-serif mb-6 text-center">Zadanie Rekrutacyjne — London Fashion Day</h2>
+        <h2 className="text-3xl md:text-4xl font-serif mb-6 text-center">Eksperyment — sesja zdjęciowa London Fashion Day</h2>
         <p className="text-gray-600 mb-10 text-center">
           Dokumentacja sesji zdjęciowej w Londynie — 7 scen z modelką, prompty i opis workflow.
         </p>
